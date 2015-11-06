@@ -1,0 +1,4 @@
+{
+  "name": "league/flysystem",
+  "description": "Filesystem abstraction: Many filesystems, one API."
+}
