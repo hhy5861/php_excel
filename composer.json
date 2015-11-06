@@ -1,6 +1,9 @@
 {
   "name": "hhy5861/php_excel",
   "description": "php creatd export excel file",
+  "keywords": ["test"],
+  "type": "project",
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Mike Huang",
@@ -8,9 +11,7 @@
     }
   ],
   "require": {
-    "hhy5861/php_excel": "~1.0"
-  },
-  "require-dev": {
+    "hhy5861/php_excel": "*"
   },
   "autoload": {
     "psr-4": {

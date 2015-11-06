@@ -1,4 +1,6 @@
 <?php
+require_once "vendor/autoload.php";
+
 use lib\ExportDataExcel;
 
 function genRandomString($length = 100)
