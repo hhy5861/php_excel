@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "hhy5861/php_excel": ""
+    "hhy5861/php_excel": "~1.0"
   },
   "require-dev": {
   },
