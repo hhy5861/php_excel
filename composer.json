@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Lib\\": "lib/"
+      "lib\\": "lib/"
     }
   }
 }

@@ -14,11 +14,12 @@ function genRandomString($length = 100)
     return $string;
 }
 
-$excel = new ExportDataExcel('file');
+$excel = new ExportDataExcel('file','/Users/Mike/Downloads/');
+
 $excel->filename = "test_big_excel.xls";
 
 $excel->initialize();
-for($i = 1; $i<100000; $i++)
+for($i = 1; $i<10000; $i++)
 {
     $row = array($i, genRandomString(), genRandomString(), genRandomString(), genRandomString(), genRandomString());
     $excel->addRow($row);

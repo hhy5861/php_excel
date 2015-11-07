@@ -1,8 +1,10 @@
 <?php
+require_once "vendor/autoload.php";
+
 use lib\ExportDataExcel;
 
-$excel = new ExportDataExcel('browser');
-$excel->filename = "test.xml";
+$excel = new ExportDataExcel('browser','/Users/Mike/Downloads/');
+$excel->filename = "test.xls";
 
 $data = array(
     array(1,2,3),

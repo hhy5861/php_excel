@@ -1,4 +1,6 @@
 <?php
+require_once "vendor/autoload.php";
+
 use lib\ExportDataTSV;
 
 $tsv = new ExportDataTSV('string');

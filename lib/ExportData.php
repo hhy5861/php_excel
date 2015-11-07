@@ -14,15 +14,13 @@ abstract class ExportData
 {
     public $filename;
 
+    public $tempFilename;
+
     protected $exportTo;
 
     protected $tempFile;
 
     protected $stringData;
-
-    protected $tempFilename;
-
-
 
     public function __construct($exportTo = "browser", $filename = "exportdata")
     {
@@ -48,7 +46,10 @@ abstract class ExportData
                 $this->stringData = '';
                 break;
             case 'file':
-                $this->tempFilename = tempnam(sys_get_temp_dir(), 'exportdata');
+                if(!$this->tempFilename && !is_dir($this->tempFilename))
+                {
+                    $this->tempFilename = tempnam(sys_get_temp_dir(), 'exportdata');
+                }
                 $this->tempFile = fopen($this->tempFilename, "w");
                 break;
         }
