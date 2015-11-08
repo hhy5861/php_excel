@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "hhy5861/php_excel": "*"
+    "hhy5861/php_excel": "dev-master"
   },
   "autoload": {
     "psr-4": {
