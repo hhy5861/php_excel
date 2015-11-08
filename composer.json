@@ -14,7 +14,7 @@
     "hhy5861/php_excel": "dev-master"
   },
   "require-dev": {
-    "hhy5861/php_excel": "dev-master"
+    "hhy5861/php_excel": "*"
   },
   "autoload": {
     "psr-4": {
