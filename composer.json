@@ -1,9 +1,12 @@
 {
   "name": "hhy5861/php_excel",
   "description": "php creatd export excel file",
-  "keywords": ["test"],
-  "type": "library",
+  "keywords": ["test","php_excel"],
+  "type": "project",
   "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/hhy5861/php_excel"
+  },
   "authors": [
     {
       "name": "Mike Huang",
