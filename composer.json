@@ -2,7 +2,7 @@
   "name": "hhy5861/php_excel",
   "description": "php creatd export excel file",
   "keywords": ["test"],
-  "type": "project",
+  "type": "library",
   "license": "BSD-3-Clause",
   "authors": [
     {
